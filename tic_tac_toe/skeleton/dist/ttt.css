@@ -1,0 +1,25 @@
+/* .grid {
+
+  height: 300px;
+}  */
+
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  background-color: black;
+  width :500px;
+}
+
+ul li {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+ul li:hover {
+  background-color: yellow;
+}
