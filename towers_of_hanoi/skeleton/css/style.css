@@ -1,0 +1,19 @@
+.towers {
+  display: flex;
+  background-color: grey;
+  width: 500px;
+  /* list-style: none; */
+}
+
+.pile {
+  flex-direction: row;
+  align-content: space-around;
+
+  /* background-color: black; */
+}
+
+.pile li {
+  flex-direction: column;
+  border-bottom: 10px solid black;
+
+}
